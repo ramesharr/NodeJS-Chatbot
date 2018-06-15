@@ -1,0 +1,12 @@
+{
+    "name": "eliza",
+    "version": "0.0.2",
+    "private": true,
+    "scripts": {
+        "start": "node eliza.js"
+    },
+    "repository": {},
+    "engines": {
+        "node": "4.x"
+    }
+}
