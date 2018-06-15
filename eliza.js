@@ -976,5 +976,6 @@ http.createServer(function (req, res) {
 	if (eliza.quit) {
 	
 	}  */
-}).listen(1337);
-console.log('Server running at http://localhost:1337/');
+}).listen(process.env.PORT || 3000, function(){
+  console.log('listening on');
+});
